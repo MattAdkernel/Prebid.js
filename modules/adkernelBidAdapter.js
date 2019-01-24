@@ -16,7 +16,7 @@ const VERSION = '1.3';
 export const spec = {
 
   code: 'adkernel',
-  aliases: ['headbidding'],
+  aliases: ['headbidding', 'kubient'],
   supportedMediaTypes: [BANNER, VIDEO],
   isBidRequestValid: function(bidRequest) {
     return 'params' in bidRequest && typeof bidRequest.params.host !== 'undefined' &&
